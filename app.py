@@ -76,8 +76,3 @@ def upload_file():
 
 if __name__=='__main__':
      app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 8080)),debug=True)
-# Usage example
-# workbook_path = './Take Home Assignment.xlsx'
-# output_file_path = './Combined_Output.xlsx'
-
-# process_and_combine_excel(workbook_path, output_file_path)
