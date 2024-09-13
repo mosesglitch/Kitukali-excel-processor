@@ -29,7 +29,7 @@ def process_and_combine_excel(workbook_path):
 
     pesapal_df = pesapal_df.rename(columns={
         'Confirmation Code': 'Code',
-        'Net Amount': 'Total',
+        'Amount': 'Total',
         'Date': 'Date',
         'Payment Method': 'Payment Method',
         'Description': 'Location'
